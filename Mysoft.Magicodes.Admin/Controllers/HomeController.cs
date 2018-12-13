@@ -8,9 +8,27 @@ using Mysoft.Magicodes.Admin.Models;
 
 namespace Mysoft.Magicodes.Admin.Controllers
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public class HomeController : Controller
     {
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet]
         public IActionResult Index()
+        {
+            return View();
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet]
+        public IActionResult Login()
         {
             return View();
         }
