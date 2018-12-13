@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.106
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mysoft.Magicodes.Admin", "Mysoft.Magicodes.Admin\Mysoft.Magicodes.Admin.csproj", "{63A49A4F-D079-472F-AEA8-52773763B80D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mysoft.Magicodes.Core", "Mysoft.Magicodes.Core\Mysoft.Magicodes.Core.csproj", "{DDFB414C-3DCA-4FC3-BCFA-A24D34D7FB26}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Mysoft.Magicodes.Core", "1.Mysoft.Magicodes.Core", "{AB3522D6-8E10-4F50-9A69-23D7626D535B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Mysoft.Magicodes.Presentation", "2.Mysoft.Magicodes.Presentation", "{15760165-3A75-4CA7-9F92-2429CC3EB498}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mysoft.Magicodes.Portal", "Mysoft.Magicodes.Portal\Mysoft.Magicodes.Portal.csproj", "{357E4E9D-911C-409C-9FE8-F838E55EAEDD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63A49A4F-D079-472F-AEA8-52773763B80D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63A49A4F-D079-472F-AEA8-52773763B80D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63A49A4F-D079-472F-AEA8-52773763B80D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63A49A4F-D079-472F-AEA8-52773763B80D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDFB414C-3DCA-4FC3-BCFA-A24D34D7FB26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDFB414C-3DCA-4FC3-BCFA-A24D34D7FB26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDFB414C-3DCA-4FC3-BCFA-A24D34D7FB26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDFB414C-3DCA-4FC3-BCFA-A24D34D7FB26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{357E4E9D-911C-409C-9FE8-F838E55EAEDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{357E4E9D-911C-409C-9FE8-F838E55EAEDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{357E4E9D-911C-409C-9FE8-F838E55EAEDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{357E4E9D-911C-409C-9FE8-F838E55EAEDD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{63A49A4F-D079-472F-AEA8-52773763B80D} = {15760165-3A75-4CA7-9F92-2429CC3EB498}
+		{DDFB414C-3DCA-4FC3-BCFA-A24D34D7FB26} = {AB3522D6-8E10-4F50-9A69-23D7626D535B}
+		{357E4E9D-911C-409C-9FE8-F838E55EAEDD} = {15760165-3A75-4CA7-9F92-2429CC3EB498}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {426440FF-150F-4700-9106-E5A648A95298}
+	EndGlobalSection
+EndGlobal
