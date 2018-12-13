@@ -11,7 +11,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Mysoft.Magicodes.Core", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Mysoft.Magicodes.Presentation", "2.Mysoft.Magicodes.Presentation", "{15760165-3A75-4CA7-9F92-2429CC3EB498}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mysoft.Magicodes.Portal", "Mysoft.Magicodes.Portal\Mysoft.Magicodes.Portal.csproj", "{357E4E9D-911C-409C-9FE8-F838E55EAEDD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mysoft.Magicodes.Portal", "Mysoft.Magicodes.Portal\Mysoft.Magicodes.Portal.csproj", "{357E4E9D-911C-409C-9FE8-F838E55EAEDD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Mysoft.Magicodes.Plugins", "3.Mysoft.Magicodes.Plugins", "{6F25E8BC-1081-4733-A161-6662323BA870}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
