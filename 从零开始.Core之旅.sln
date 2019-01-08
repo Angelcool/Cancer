@@ -15,6 +15,16 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mysoft.Magicodes.Portal", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Mysoft.Magicodes.Plugins", "3.Mysoft.Magicodes.Plugins", "{6F25E8BC-1081-4733-A161-6662323BA870}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mysoft.Magicodes.Repositories", "Mysoft.Magicodes.Repositories\Mysoft.Magicodes.Repositories.csproj", "{2853D864-B225-478E-8167-AF1B04F0D7C5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mysoft.Magicodes.Infrastructure", "Mysoft.Magicodes.Infrastructure\Mysoft.Magicodes.Infrastructure.csproj", "{27F57D1B-7A12-4F11-8194-2DEB97D98AEC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mysoft.Magicodes.Services", "Mysoft.Magicodes.Services\Mysoft.Magicodes.Services.csproj", "{D0486BFE-6B92-4FA6-BAB3-6A8DCCCA70C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.UnitTest", "4.UnitTest", "{BBFA1D71-5A16-4E23-8368-C04825C5FA2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mysoft.Magicodes.Alipay", "Plugins\Mysoft.Magicodes.Alipay\Mysoft.Magicodes.Alipay.csproj", "{20D16C9F-64B8-4052-94C4-96D3DEDEAF92}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +43,22 @@ Global
 		{357E4E9D-911C-409C-9FE8-F838E55EAEDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{357E4E9D-911C-409C-9FE8-F838E55EAEDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{357E4E9D-911C-409C-9FE8-F838E55EAEDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2853D864-B225-478E-8167-AF1B04F0D7C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2853D864-B225-478E-8167-AF1B04F0D7C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2853D864-B225-478E-8167-AF1B04F0D7C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2853D864-B225-478E-8167-AF1B04F0D7C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27F57D1B-7A12-4F11-8194-2DEB97D98AEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27F57D1B-7A12-4F11-8194-2DEB97D98AEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27F57D1B-7A12-4F11-8194-2DEB97D98AEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27F57D1B-7A12-4F11-8194-2DEB97D98AEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0486BFE-6B92-4FA6-BAB3-6A8DCCCA70C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0486BFE-6B92-4FA6-BAB3-6A8DCCCA70C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0486BFE-6B92-4FA6-BAB3-6A8DCCCA70C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0486BFE-6B92-4FA6-BAB3-6A8DCCCA70C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20D16C9F-64B8-4052-94C4-96D3DEDEAF92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20D16C9F-64B8-4052-94C4-96D3DEDEAF92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20D16C9F-64B8-4052-94C4-96D3DEDEAF92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20D16C9F-64B8-4052-94C4-96D3DEDEAF92}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +67,10 @@ Global
 		{63A49A4F-D079-472F-AEA8-52773763B80D} = {15760165-3A75-4CA7-9F92-2429CC3EB498}
 		{DDFB414C-3DCA-4FC3-BCFA-A24D34D7FB26} = {AB3522D6-8E10-4F50-9A69-23D7626D535B}
 		{357E4E9D-911C-409C-9FE8-F838E55EAEDD} = {15760165-3A75-4CA7-9F92-2429CC3EB498}
+		{2853D864-B225-478E-8167-AF1B04F0D7C5} = {AB3522D6-8E10-4F50-9A69-23D7626D535B}
+		{27F57D1B-7A12-4F11-8194-2DEB97D98AEC} = {AB3522D6-8E10-4F50-9A69-23D7626D535B}
+		{D0486BFE-6B92-4FA6-BAB3-6A8DCCCA70C8} = {AB3522D6-8E10-4F50-9A69-23D7626D535B}
+		{20D16C9F-64B8-4052-94C4-96D3DEDEAF92} = {6F25E8BC-1081-4733-A161-6662323BA870}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {426440FF-150F-4700-9106-E5A648A95298}
