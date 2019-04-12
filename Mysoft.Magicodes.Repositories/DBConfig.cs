@@ -4,15 +4,25 @@ using System.Data.SqlClient;
 
 namespace Mysoft.Magicodes.Repositories
 {
+    public enum DbEnum
+    {
+        SqlServer,
+        MySql,
+        Oracle,
+        PostgreSql,
+        SqlLite
+    }
+
     /// <summary>
-    /// 
+    /// 数据库连接配置
     /// </summary>
     public class DbConfig
     {
+        
         /// <summary>
         /// 
         /// </summary>
-        public static string DefaultSqlConnectionString = @"server=127.0.0.1;database=ormdemo;uid=root;pwd=Open0001;SslMode=none;";
+        public static string DefaultSqlConnectionString = @"PORT=5432;DATABASE=magicodes;HOST=47.106.120.125;PASSWORD=Xiaohu520;USER ID=postgres";
 
         /// <summary>
         /// 创建数据里连接
@@ -27,6 +37,7 @@ namespace Mysoft.Magicodes.Repositories
             }
             IDbConnection conn = new SqlConnection(sqlConnectionString);
             conn.Open();
+
             return conn;
         }
     }

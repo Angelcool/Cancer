@@ -7,7 +7,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>SuperUI前端框架</title>
+    <title>智慧物流管理系统</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.6 -->
@@ -59,7 +59,7 @@ desired effect
                 <!-- mini logo for sidebar mini 50x50 pixels -->
                 <span class="logo-mini"><b>S</b>UI</span>
                 <!-- logo for regular state and mobile devices -->
-                <span class="logo-lg"><b>Super</b>Shop</span>
+                <span class="logo-lg">Super智慧物流管理</span>
             </a>
 
             <!-- Header Navbar -->
@@ -68,7 +68,7 @@ desired effect
                 <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
                     <span class="sr-only">切换导航</span>
                 </a>
-                <div class="collapse navbar-collapse pull-left" id="navbar-collapse">
+                @*<div class="collapse navbar-collapse pull-left" id="navbar-collapse">
                     <ul class="nav navbar-nav">
                         <li><a href="#">平台 <span class="sr-only">(current)</span></a></li>
                         <li><a href="#">订单</a></li>
@@ -85,108 +85,10 @@ desired effect
                             </ul>
                         </li>
                     </ul>
-
-                </div>
+                </div>*@
                 <!-- Navbar Right Menu -->
                 <div class="navbar-custom-menu">
                     <ul class="nav navbar-nav">
-                        <!-- Messages: style can be found in dropdown.less-->
-                        <li class="dropdown messages-menu">
-                            <!-- Menu toggle button -->
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                <i class="fa fa-envelope-o"></i>
-                                <span class="label label-success">4</span>
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li class="header">你有4条提醒</li>
-                                <li>
-                                    <!-- inner menu: contains the messages -->
-                                    <ul class="menu">
-                                        <li>
-                                            <!-- start message -->
-                                            <a href="#">
-                                                <div class="pull-left">
-                                                    <!-- User Image -->
-                                                    <img src="~/content/ui/img/photos/girl1.png" class="img-circle" alt="User Image">
-                                                </div>
-                                                <!-- Message title and timestamp -->
-                                                <h4>
-                                                    新用户注册
-                                                    <small><i class="fa fa-clock-o"></i> 现在</small>
-                                                </h4>
-                                                <!-- The message -->
-                                                <p>新用户注册!</p>
-                                            </a>
-                                        </li>
-                                        <!-- end message -->
-                                    </ul>
-                                    <!-- /.menu -->
-                                </li>
-                                <li class="footer"><a href="#">查看所有提醒</a></li>
-                            </ul>
-                        </li>
-                        <!-- /.messages-menu -->
-                        <!-- Notifications Menu -->
-                        <li class="dropdown notifications-menu">
-                            <!-- Menu toggle button -->
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                <i class="fa fa-bell-o"></i>
-                                <span class="label label-warning">10</span>
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li class="header">你有10条消息</li>
-                                <li>
-                                    <!-- Inner Menu: contains the notifications -->
-                                    <ul class="menu">
-                                        <li>
-                                            <!-- start notification -->
-                                            <a href="#">
-                                                <i class="fa fa-users text-aqua"></i> 新用户注册!
-                                            </a>
-                                        </li>
-                                        <!-- end notification -->
-                                    </ul>
-                                </li>
-                                <li class="footer"><a href="#">查看所有</a></li>
-                            </ul>
-                        </li>
-                        <!-- Tasks Menu -->
-                        <li class="dropdown tasks-menu">
-                            <!-- Menu Toggle Button -->
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                <i class="fa fa-flag-o"></i>
-                                <span class="label label-danger">9</span>
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li class="header">您有9条消息</li>
-                                <li>
-                                    <!-- Inner menu: contains the tasks -->
-                                    <ul class="menu">
-                                        <li>
-                                            <!-- Task item -->
-                                            <a href="#">
-                                                <!-- Task title and progress text -->
-                                                <h3>
-                                                    superui第一版发布啦
-                                                    <small class="pull-right">20%</small>
-                                                </h3>
-                                                <!-- The progress bar -->
-                                                <div class="progress xs">
-                                                    <!-- Change the css width attribute to simulate progress -->
-                                                    <div class="progress-bar progress-bar-aqua" style="width: 20%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
-                                                        <span class="sr-only">20% 完成</span>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </li>
-                                        <!-- end task item -->
-                                    </ul>
-                                </li>
-                                <li class="footer">
-                                    <a href="#">查看所有</a>
-                                </li>
-                            </ul>
-                        </li>
                         <!-- User Account Menu -->
                         <li class="dropdown user user-menu">
                             <!-- Menu Toggle Button -->
@@ -317,7 +219,7 @@ desired effect
             版权所有 &copy;tzhsweet 2015-2018&nbsp;&nbsp;&nbsp;&nbsp;   粤ICP备16024545号-1
         </footer>
         <!-- Control Sidebar -->
-        <aside class="control-sidebar control-sidebar-dark">
+        <aside class="control-sidebar control-sidebar-light">
             <!-- Create the tabs -->
             <ul class="nav nav-tabs nav-justified control-sidebar-tabs">
                 <li><a href="#control-sidebar-home-tab" data-toggle="tab"><i class="fa fa-home"></i></a></li>
@@ -495,7 +397,7 @@ desired effect
     <script src="~/content/min/js/supershopui.common.js"></script>
     <script type="text/javascript">
         $(function () {
-            addTabs(({ id: '10008', title: '欢迎页', close: false, url: '' }));
+            //addTabs(({ id: '10008', title: '欢迎页', close: true, url: '' }));
             App.fixIframeCotent();
             var menus = [
                 { id: "10010", text: "我的工作台", isHeader: true },
