@@ -6,10 +6,14 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Mysoft.Magicodes.Admin.Models;
 
+/// <summary>
+/// namespace mysoft.magicodes.admin.controllers
+/// 
+/// </summary>
 namespace Mysoft.Magicodes.Admin.Controllers
 {
     /// <summary>
-    /// 
+    /// 主页
     /// </summary>
     public class HomeController : Controller
     {
@@ -33,6 +37,10 @@ namespace Mysoft.Magicodes.Admin.Controllers
             return View();
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";
@@ -40,6 +48,10 @@ namespace Mysoft.Magicodes.Admin.Controllers
             return View();
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
         public IActionResult Contact()
         {
             ViewData["Message"] = "Your contact page.";
@@ -47,11 +59,19 @@ namespace Mysoft.Magicodes.Admin.Controllers
             return View();
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
         public IActionResult Privacy()
         {
             return View();
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

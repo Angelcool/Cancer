@@ -5,6 +5,7 @@
     <SccProvider></SccProvider>
     <SccAuxPath></SccAuxPath>
     <SccLocalPath></SccLocalPath>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
   </PropertyGroup>
 
   <PropertyGroup>
